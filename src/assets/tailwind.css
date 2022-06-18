@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('http://fonts/roboto/stylesheet.css');
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vse{
+    background: url('bg.png');
+    
+}
+.search{
+    border-right: solid #989AA9 3px;
+    color: #DDDDE2;
+}
+.search a:hover{
+    color: #fff;
+    transition: all 0.5s ;
+    text-decoration: underline;
+}
+.searc{
+    border-left: solid #989AA9 3px;
+    color:  #989AA9;
+}
+.searc:hover i:hover{
+    color: #fff;
+    transition: all 0.8s ;
+}
+.snap{
+    border: solid  1px #1E74EC;
+    background: #1E74EC;
+    font-family: 'Gotham';
+}
+.textee{
+    color: #03115F;
+}
+.knop{
+    color: #1E74EC;
+    border: solid 3px #1E74EC;
+}
+.knop:hover{
+    color: #fff;
+    transition: all 0.3s;
+    border: solid 3px #1E74EC;
+    background:#1E74EC ;
+}
+.sone{
+    color: #1E74EC;
+}
+.purplee{
+    color: #A960AB;
+}
+.bge{
+    background: #E6E8EF;
+    height: 640px;
+}
+.ray{
+    background: #EEEFF1;
+}
+.con{
+    background: #012C88;
+}
+.bor{
+    border-bottom: 1px solid #DDDDE2;
+}
+.txtcolor{
+    color: #DDDDE2;
+}
+.knopp{
+    color: white;
+    background:#1E74EC;
+    border:solid 3px #1E74EC;
+}
+.rrr{
+    color: #A960AB;
+}
